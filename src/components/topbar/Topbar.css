@@ -1,0 +1,70 @@
+.topbar {
+  color: white;
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(58, 58, 173);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.right {
+  padding: 10px;
+  display: flex;
+}
+.topbarIconItem {
+  cursor: pointer;
+  position: relative;
+  margin: auto 20px;
+}
+.searchInput {
+  padding: 5px 5px 5px 40px;
+  border-radius: 20px;
+  border: none;
+  font-size: medium;
+}
+.center{
+  position: relative;
+}
+.topbarIconBadge {
+  font-size: 0.7rem;
+  line-height: 20px;
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  top: -5px;
+  right: -10px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgb(255, 0, 0);
+}
+.topbarLinks {
+  display: flex;
+  align-items: center;
+}
+ .topbarLinks li {
+  list-style: none;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.topbarImg {
+  cursor: pointer;
+  object-fit: cover;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.searchIcon {
+  padding-left: 5px;
+  padding-top: 3px;
+  position: absolute;
+  color: black;
+}
+input:focus {
+  outline: none;
+}
+.custom-link{
+  text-decoration: none;
+  color: white;
+}

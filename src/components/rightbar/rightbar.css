@@ -1,0 +1,58 @@
+.rightbar {
+  flex: 3.5;
+  /* overflow-y: scroll;
+  height: calc(100vh - 55px); */
+}
+.rightbarWrapper {
+  margin: 20px;
+}
+.birthdayContainer {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+.birthdayContainer > span {
+  margin-left: 10px;
+}
+.giftIcon {
+  width: 2.5rem;
+}
+.adImg {
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 7px;
+}
+.onlineFriend img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.onlineFriend {
+  display: flex;
+  align-items: center;
+}
+.onlineFriendName {
+  margin-left: 20px;
+}
+
+.onlineFriendsContainer p {
+  font-weight: 550;
+}
+.onlineFriendsContainer li{
+    list-style: none;
+}
+.rightbarProfileImgContainer {
+  position: relative;
+  margin-top: 20px;
+}
+.onlineFriend .badge {
+  position: absolute;
+  left: 35px;
+  top: -6px;
+  border: 2px solid white;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: rgb(134, 223, 0);
+}

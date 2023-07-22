@@ -1,0 +1,57 @@
+.loginPage {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.appTitle {
+  font-size: 80px;
+  font-weight: bolder;
+  color: rgb(58, 58, 173);
+}
+.appTagline {
+  line-height: 40px;
+  width: 80%;
+}
+.loginRight {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.loginRight input,
+.loginRight button {
+  margin-bottom: 20px;
+  min-width: 300px;
+  padding: 15px;
+  border-radius: 7px;
+}
+.loginRight input {
+  border: 2px solid rgba(128, 128, 128, 0.562);
+}
+.loginRight p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(24, 119, 242);
+  cursor: pointer;
+}
+.loginBtn {
+  width: 100%;
+  border: none;
+  color: white;
+  background-color: rgb(66, 183, 42);
+  cursor: pointer;
+}
+.registerBtn {
+  width: 100%;
+  color: white;
+  border: none;
+  background-color: rgb(58, 58, 173);
+  cursor: pointer;
+}
+
