@@ -5,7 +5,7 @@ function CloseFriend({profilePicture,username}) {
     <li className="sidebarFriends">
       <img className="sidebarFriendImg" src={profilePicture} />
       <span className="sidebarFriendName">{username}</span>
-    </li>
+    </li> 
   );
 }
 
